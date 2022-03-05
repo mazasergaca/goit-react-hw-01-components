@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 150px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.status {
+  margin-right: 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin-right: 10px;
+  background-color: rgb(0, 124, 161);
+  border-radius: 4px;
+}
+
+.name {
+  font-weight: 600;
+}
